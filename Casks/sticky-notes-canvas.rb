@@ -1,15 +1,15 @@
 cask "sticky-notes-canvas" do
   arch arm: "-arm64", intel: ""
 
-  version "1.3.5"
-  sha256 arm:   "026a06d96dbecba77675aad2ce5412fd0bd3da6b4b0180b19f0b09906e243173",
-         intel: "92b6cc4693511af17fb0cfa6b4a38e6ca4610dc5b9edb56eeca5291d2cb81c28"
+  version "1.3.6"
+  sha256 arm:   "44dc0f5788922792ba82d77ab6d04900b7c6c16908199722447bd3243baca1d8",
+         intel: "ee86d264ea563d93a67e4722ff5019fb0f876c1a37f5604b8ae91f05a7d64fa3"
 
-  url "https://github.com/faridjaff/sticky-notes-canvas/releases/download/v#{version}/Sticky.Notes-#{version}#{arch}.dmg",
-      verified: "github.com/faridjaff/sticky-notes-canvas/"
+  url "https://github.com/faridjaff/StickyNotesCanvas/releases/download/v#{version}/Sticky.Notes-#{version}#{arch}.dmg",
+      verified: "github.com/faridjaff/StickyNotesCanvas/"
   name "Sticky Notes"
   desc "Spatial sticky-notes canvas"
-  homepage "https://github.com/faridjaff/sticky-notes-canvas"
+  homepage "https://github.com/faridjaff/StickyNotesCanvas"
 
   # Polls GitHub Releases for new tags. When a new version ships, the
   # cask version updates automatically; the user just `brew upgrade`s.
