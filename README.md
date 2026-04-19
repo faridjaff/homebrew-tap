@@ -18,4 +18,4 @@ brew install --cask faridjaff/tap/<cask-name>
 
 | Cask | Description |
 |---|---|
-| [`sticky-notes-canvas`](Casks/sticky-notes-canvas.rb) | A spatial sticky-notes app for macOS — [source](https://github.com/faridjaff/sticky-notes) |
+| [`sticky-notes-canvas`](Casks/sticky-notes-canvas.rb) | A spatial sticky-notes app for macOS — [source](https://github.com/faridjaff/sticky-notes-canvas) |
